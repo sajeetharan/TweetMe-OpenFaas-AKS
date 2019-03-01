@@ -1,0 +1,13 @@
+provider:
+  name: faas
+  gateway: http://<OPEN-FASS-ADDR>:8080
+functions:
+  tweetme:
+    lang: python
+    handler: ./tweetme
+    image: sajeetharan/tweetme:latest
+    environment:
+        consumer_key: ""
+        consumer_secret: ""
+        access_token: ""
+        access_token_secret: ""
