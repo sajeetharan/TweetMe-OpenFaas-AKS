@@ -9,9 +9,6 @@ This is an OpenFaaS function written in Python that makes use of the `tweepy` li
 # Prerequisites
 Follow the guideliness given in https://github.com/sajeetharan/serverless-with-openfaas-aks-workshop-colombo to setup the OpenFaas  on AKS.
 
-
-Slides : https://slides.com/sajeetharansinnathurai/openfaas
-
 ## Set up
 
 1. You will need to specify your Twitter app environment variables in the `tweetme.yml` file.
