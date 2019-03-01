@@ -17,5 +17,5 @@ def handle(tweet):
     api = get_api(cfg)
 
     status = api.update_status(status=tweet)
-    print('Tweet sent.')
+    print('Tweet sent from AKS colombo workshop')
     print(status)

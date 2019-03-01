@@ -4,7 +4,7 @@
 
 This is an OpenFaaS function written in Python that makes use of the `tweepy` library to send a tweet from your Twitter account.
 
-![OpenFaaS Send Tweet function](docs/images/OpenFaaS-TweetMe.PNG)
+![OpenFaaS Send Tweet function](docs/images/OpenFaas-TweetMe.png)
 
 # Prerequisites
 Follow the guideliness given in https://github.com/sajeetharan/serverless-with-openfaas-aks-workshop-colombo to setup the OpenFaas  on AKS.
